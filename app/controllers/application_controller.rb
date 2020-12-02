@@ -11,4 +11,8 @@ class ApplicationController < Sinatra::Base
     erb :welcome
   end
 
+  get "/tasks" do
+    erb :tasks
+  end
+
 end
